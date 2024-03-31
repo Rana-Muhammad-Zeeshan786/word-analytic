@@ -1,8 +1,8 @@
 import { useState } from 'react'
+
 import Warning from './Warning'
 
-const Textarea = () => {
-  const [text, setText] = useState('')
+const Textarea = ({ text, setText }) => {
   const [warningText, setWarningText] = useState('')
 
   const onTextareChange = (e) => {
