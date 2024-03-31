@@ -1,11 +1,12 @@
 import BackgoundImage from './BackgoundImage'
+import Heading from './Heading'
 
 const Header = () => {
   return (
     <header>
       <BackgoundImage />
 
-      <h1>Word Analytics</h1>
+      <Heading />
     </header>
   )
 }
